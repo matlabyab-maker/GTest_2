@@ -1,0 +1,19 @@
+[application]
+config/name="کوهستان برفی 1942 - Wagon Village Demo"
+run/main_scene="res://scenes/Main.tscn"
+
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/size/window_width_override=1280
+window/size/window_height_override=720
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+
+[input]
+forward={"deadzone":0.2,"events":[Object(InputEventKey,"physical_keycode":87)]}
+back={"deadzone":0.2,"events":[Object(InputEventKey,"physical_keycode":83)]}
+left={"deadzone":0.2,"events":[Object(InputEventKey,"physical_keycode":65)]}
+right={"deadzone":0.2,"events":[Object(InputEventKey,"physical_keycode":68)]}
